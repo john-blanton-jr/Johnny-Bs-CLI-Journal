@@ -26,19 +26,19 @@
 <br />
 <div align="center">
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Johnny B's CLI Journal</h3>
 
   <p align="center">
-    project_description
+    Super Simple CLI Journal
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <!-- <a href="https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal">View Demo</a>
+    · -->
+    <a href="https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -75,9 +75,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+I wanted a personal journal app where I could control my own data. I didnt want any fancy features or distractions. SO I created Johnny B's CLI Journal. This uses pythons sqlite3. No need to setup a database when running the first time it will create the nessesary folder and file.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+![Product Name Screen Shot][product-screenshot1]
+![Product Name Screen Shot][product-screenshot2]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,14 +87,12 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![SQLITE](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+
+[![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,57 +101,36 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
+   git clone https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal.git
+2. Create Virtual Environment
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+   cd Johnny-Bs-CLI-Journal
+    python -m venv .venv 
 
+    # windows
+    ..venv\Scripts\Activate.ps1
+
+    # MacOS/Lunix 
+    source .venv/bin/activate
+3. Install Requirements
+   ```sh
+   pip install -r requirements.txt
+4. Run
+   ```sh
+   Python app.py
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,9 +166,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+John - hello@johnblanton.com
+Project Link: [https://github.com/github_username/repo_name](https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,9 +176,11 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+Rich
+
+[![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,7 +200,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot1]: images/screenshot_01.png
+[product-screenshot2]: images/screenshot_02.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -238,9 +219,3 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-source .venv/bin/activate
-
-pip install -r requirements.txt
