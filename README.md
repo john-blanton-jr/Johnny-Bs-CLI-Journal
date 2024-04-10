@@ -166,7 +166,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 John - hello@johnblanton.com
-Project Link: [https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal)](https://github.com/john-blanton-jr/Johnny-Bs-CLI-Journal
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
