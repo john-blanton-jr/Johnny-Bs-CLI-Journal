@@ -18,7 +18,7 @@ menu = """Select one of the following options:
     2) List entries.
     3) Get entries by year.
     4) Get entries by month and year.
-    5) Get entry by entry date.
+    5) Get entries by date.
     6) Search entries.
     7) [bold red]Exit.[/]
 
