@@ -76,6 +76,7 @@
 I wanted a personal journal app where I could control my own data. I didnt want any fancy features or distractions. So I created Johnny B's CLI Journal. This uses pythons sqlite3. No need to setup a database when running the first time it will create the nessesary folder and file.
 
 ![Product Name Screen Shot][product-screenshot1]
+
 ![Product Name Screen Shot][product-screenshot2]
 
 
