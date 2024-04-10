@@ -1,4 +1,5 @@
 import datetime
+import os
 import sqlite3
 
 CREATE_ENTRIES_TABLE = """CREATE TABLE IF NOT EXISTS entries (
@@ -22,7 +23,18 @@ SELECT_ENTRY_BY_DATE = (
 SEARCH_ENTRIES = """SELECT * FROM ENTRIES WHERE (entry_content ) LIKE ?;"""
 
 
-connection = sqlite3.connect("./data/data.db")
+# Define the database path
+db_path = "./data/data.db"
+
+# Extract the directory part of the path
+db_dir = os.path.dirname(db_path)
+
+# Check if the directory exists, and create it if it does not
+if not os.path.exists(db_dir):
+    os.makedirs(db_dir)
+
+# Now, safely connect to the SQLite database (it will create the database file if it doesn't exist)
+connection = sqlite3.connect(db_path)
 
 
 def create_tables():
