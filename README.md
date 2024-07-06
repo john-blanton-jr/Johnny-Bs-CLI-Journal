@@ -111,7 +111,7 @@ I wanted a personal journal app where I could control my own data. I didnt want 
     python -m venv .venv 
 
     # windows
-    ..venv\Scripts\Activate.ps1
+    .venv\Scripts\Activate.ps1
 
     # MacOS/Lunix 
     source .venv/bin/activate
